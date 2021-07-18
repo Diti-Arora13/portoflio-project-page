@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+/******************CSS VARIABLES ***********************/
+:root{
+    --black: #181818;
+    --white: #fff;
+    --grey: #c4c4c4;
+    --dark-grey: #969696;
+    --purple: #935CEC;
+    --green: #38c0b0;
+    --font-family: Inconsolata;
+}
+
+body{
+    margin: 0;
+    background: var(--black);
+    overflow-x: hidden;
+    font-family: var(--font-family);
+    color: var(--white);
+}
+
+.project-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.project-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.project-img{
+    width: 35vw;
+}
+
+.project-grey-sec{
+    background: var(--grey);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.veiw-it-btn{
+    cursor: pointer;
+    background: var(--black);
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-family: var(--font-family);
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.veiw-it-btn:hover{
+    opacity: .9;
+}
+
+.back-to-home-text{
+    display: inline-block;
+    font-size: 20px;
+    color: var(--white);
+    text-decoration: none;
+    margin: 100px 40px;
+}
+
+.back-to-home-text:hover{
+    color: var(--purple);
+}
